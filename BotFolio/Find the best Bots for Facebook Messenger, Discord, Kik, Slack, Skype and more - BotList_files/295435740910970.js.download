@@ -1,0 +1,11 @@
+window.mcwidget = {"appId":"532160876956612","pageId":"295435740910970","widgets":[{"widget_id":942058,"page_id":"295435740910970","widget_type":"button","status":"active","name":"BotList Webinar Opt-in","data":{"main":{"showAgain":["always","3"],"whenDisplay":["immediately","30"]},"actions":{"sequence":"292774"},"submitted":{"redirectUrl":"https://m.me/BotListLabs?ref=ecommerce-bot-webinar"}}},{"widget_id":887779,"page_id":"295435740910970","widget_type":"landing","status":"active","name":"Growth Tool #6","data":[]}],"widgetLocale":"en_US","defaultSize":0,"fbSDKVersion":"v3.1"};
+
+(function(d, s, id){
+    var host = 'manychat.com/108191';
+
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) { return; }
+    js = d.createElement(s); js.id = id;
+    js.src = '//' + host + '/assets/js/widget.js?' + (Math.round(+new Date/1000*600));
+    fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'mcwidget-core'));

@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "Gill Sans MT";
+    src: url("Gill Sans MT.ttf");
+}
+@font-face {
+    font-family: "Eras Light";
+    src: url("ERASLGHT.ttf");
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    background-color: white;
+    color: #333333;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+    
+}
+ul{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+ul ul{
+    width: 22%;
+    
+    float: left;
+}
+header{
+    margin: auto;
+    padding: 0;
+    background: url(bg.jpg) no-repeat;
+    background-size: 100% 100%;
+    background-color: #d6d6d6;
+    height: 100vh;
+    width: 100vw;
+    color: white;
+}
+.container{
+    padding: 10px;
+    margin: 0;
+}
+.logo{
+    height: 90px;
+    
+}
+.logo p{
+    height: 90px;
+    margin: 0;
+    padding: 0;
+}
+.sil{
+    font-family: Gill Sans MT;
+    color: white;
+    background-color: #71c8db;
+    font-size: 2rem;
+    padding-top: 300px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.icon{
+    font-family: Gill Sans MT;
+    
+    font-size: 2rem;
+}
+.durbs{
+    font-family: Eras Light;
+    
+    font-size: 2rem;
+}
+.orange{
+    color: #ffcc00;
+}
+.aqua{
+    color: #71c8db;
+}
+.header{
+    text-align: center;
+    height: 300px;
+    padding-top: 90px;
+    
+}
+.header div{
+    
+    display: inline-block;
+    margin: auto;
+    height: inherit;
+    width: 40%;
+  
+}
+.header div img{
+    height: inherit;
+}
+
+.header div h1{
+    padding-bottom: 50px;
+    font-size: 2.5rem;
+}
+.header div p{
+    font-size: 1.2rem;
+}
+
+.buttons{
+    padding-top: 30px;
+    height: 10%;
+    text-align: right;
+    padding-right: 30px;
+}
+.btn{
+    padding-left: 10px;
+
+}
+.individualbtn{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-color: aqua;
+    border-width: 3px;
+    border-radius: 5px;
+    color: #00d0ff;
+    
+}
+.coporatebtn{
+    background-color: white;
+    padding: 5px;
+    margin: 10px;
+    border-color: aqua;
+    border-width: 3px;
+    border-radius: 5px;
+    color: #ffcc00;
+}
+.scroll{
+    text-align: center;
+    height: 10%;
+    overflow: hidden;
+}
+.scroll{
+    height: 40px;;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.main{
+    background: url(main.jpg) fixed no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#donations{
+    background-color: darkgray;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 0;
+    width: 100%;
+}
+#donations div{
+    display: inline-block;
+    margin-left: 90px;
+    margin-right: 90px;
+    color: white;
+}
+#donations div p{
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    color: white;
+    background-color: gray;
+}
+footer div{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline-block;
+}
+.silf{
+    font-family: Gill Sans MT;
+    font-size: 2rem;
+    color: gray;
+    background-color: white;
+}

@@ -1,0 +1,13 @@
+			@font-face {
+				font-family: 'avenir';
+				font-style: normal;
+				src: url('/wp-content/uploads/useanyfont/170222074528Avenir.eot');
+				src: local('avenir'), url('/wp-content/uploads/useanyfont/170222074528Avenir.eot') format('embedded-opentype'), url('/wp-content/uploads/useanyfont/170222074528Avenir.woff') format('woff');
+			}
+            
+            .avenir{font-family: 'avenir' !important;}
+            
+						body, h1, h2, h3, h4, h5, h6, p, blockquote, li, a{
+					font-family: 'avenir' !important;
+				}
+		

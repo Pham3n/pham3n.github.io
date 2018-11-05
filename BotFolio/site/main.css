@@ -1,0 +1,450 @@
+
+/*colors*/
+.blue{
+    color: #0077ff;
+}
+.green{
+    color: #008080;
+}
+.white{
+    color: white;
+}
+.darkgray{
+    color: darkgray;
+}
+a {
+    color: #4a4a4a;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+.bgblue{
+    background-color: #0077ff;
+}
+.bggreen{
+    background-color: #008080;
+}
+.bgwhite{
+    background-color: white;
+}
+.bgdarkgray{
+    background-color: darkgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.topbar{
+    
+    background: rgb(49, 49, 49);
+}
+.topbar ul li img{
+    height: 20px;
+    padding: 0;
+    margin: 0;
+}
+.underbar{
+    font-size: 0.7rem;
+}
+li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 10px;
+}
+ul{
+    list-style: none;
+}
+section{
+    height: 40vh;
+    background: url(fingerbg.png) no-repeat;
+    background-size: contain;
+}
+section p{
+    
+    display: inline;
+    text-align: center;
+    
+    align-self: center;
+    float: left;
+    color: #008080;
+    font-size: 1.5rem;
+    padding: 30px;
+}
+.botbubble{
+    float: right;
+    width: 50%;
+    height: 60%;
+    background: url(botbubble.png) no-repeat center;
+    background-size: contain;
+    display: inline-block;
+}
+
+
+
+
+
+
+/* MAIN CONTENT*/
+
+main{
+    width: 70%;
+    float: left;
+    margin: auto;
+}
+.container{
+    margin: auto;
+    padding: 5px;
+    /*overflow-x: scroll;
+    max-height: 230px;*/
+}
+
+.container div div{
+    display: inline-block;
+    
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    background: url(logolarge.png);
+    background-size: contain;
+}
+button{
+    display: block;
+    width: 100%;
+}
+hr{
+   
+    border-color: lightgray;
+    
+}
+.botname{
+    background-color: #11111150;
+}
+.cat{
+    
+    padding: 5px;
+    border-radius: 5px;
+    border: white solid thin;
+    margin-left: 4px;
+}
+.cat:hover{
+    background-color: white;
+    color: #0077ff;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SIDEBAR*/
+aside{
+    width: 25%;
+    float: right;
+}
+.ads{
+    height: 200px;
+}
+.twtr{
+    height: 100px;
+    overflow: hidden;
+}
+.twtr button img{
+    height: 10px;
+}
+.blog{
+    
+    height: 200px;
+    border: none;
+    overflow: hidden;
+}
+aside div button{
+    background-color: white;
+    border-radius: 10px;
+    border-color: #008080;
+    color: #008080;
+}
+aside div button:hover{
+    background-color: #008080;
+    border-style: dashed;
+    cursor: pointer;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* footer */
+footer{
+    content: "";
+    clear: both;
+    display: inline-block;
+    width: 100%;
+    background-color: #b4b4b4;
+    color: white;
+    
+}
+footer ul:nth-child(1){
+    float: left;
+}
+.reglogin{
+    float: right;
+    margin-right: 30px;
+}
+footer p{
+    width: 40%;
+    height: 30px;
+    box-sizing: border-box;
+    margin: auto;
+}
+footer ul li{
+    padding: 0 10px;
+    border-right: white 1px solid;
+    border-left: white 1px solid;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+footer ul li a:hover{
+    color: #008080;
+    cursor: pointer;
+    text-decoration: none;
+}
+footer ul li:hover{
+    cursor: pointer;
+    border-right:  #008080 1px solid;
+    border-left:  #008080 1px solid;
+    color: #008080;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BULMA */
+.button{
+    margin-top: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+  max-width: 730px;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: none;
+  color: white;
+  font-size: 1rem;
+  height: 2.25em;
+  
+
+}
+
+body {
+    color: #4a4a4a;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+  
+.box {
+    background-color: white;
+    border-radius: 6px;
+    box-shadow: 0 2px 3px rgba(10, 10, 10, 0.1), 0 0 0 1px rgba(10, 10, 10, 0.1);
+    color: #4a4a4a;
+    display: block;
+    padding: 1.25rem;
+    margin: 2px;
+  }
+  
+.box:hover, .box:focus {
+      background-color: #009a8eff;
+    box-shadow: 0 4px 6px rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc;
+  }
+  
+.box:active {
+    box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer p{
+    text-align: center;
+}
+
+
+
+  /* Media */
+  @media screen and (max-width: 768px) {
+    /*This is for mobile*/
+    html{
+        font-size: 0.6rem;
+    }
+    /*navbar*/
+    li{
+        
+        list-style: none;
+        display: table;
+        padding-left: 10px;
+    }
+.underbar p{
+    
+    font-size: 0.5rem;
+}
+    /*SECTION*/
+    
+    section{
+        text-align: center;
+    }
+    section p{
+    
+        display: block;
+        text-align: center;
+      width: 100%;
+        color: #008080;
+        font-size: 1.3rem;
+        padding: 5px;
+    }
+    .botbubble{
+       padding-right: 60px;
+       height: 100px;
+        width: 100%;
+        background: url(botbubble.png) no-repeat center;
+        background-size: contain;
+        display: block;
+    }
+    /*main content*/
+    .container div div{
+        
+        height: 100px;
+        width: 100px;
+        
+       
+    }
+    h2{
+        font-size: 1rem;
+    }
+    /*footer*/
+    footer ul li{
+        width: 120px;
+    }
+  }
+
+  @media screen and (min-width: 769px), print {
+    /*This is for tablets*/
+    
+  }
+
+  @media screen and (min-width: 1088px) {
+    /*This is for desktop*/
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*0791990174*/

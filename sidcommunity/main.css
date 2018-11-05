@@ -1,0 +1,254 @@
+@font-face {
+    font-family: "Gill Sans MT";
+    src: url("Gill Sans MT.ttf");
+}
+@font-face {
+    font-family: "Eras Light";
+    src: url("ERASLGHT.ttf");
+}
+
+
+body{
+    height: 100vh;
+    widows: 100vw;
+}
+/*
+{
+
+}
+*/
+aside{
+ width: 27%;
+ height: 100%;
+ box-sizing: border-box;
+ float: left;
+}
+.logo{
+    text-align: center;
+    line-height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.logo strong{
+    font-size: 2.2rem;
+}
+nav ul li a{
+    
+    font-weight: bold;
+    font-size: 1.5rem;
+    line-height: 35px; 
+    
+}
+a{
+text-decoration: none;
+}
+div ul li{
+    display: inline-block;
+}
+footer ul li a{
+    color: #555555;
+    font-family: OCR A Extended, OCR A;
+    font-size: 1.5rem;
+    line-height: 35px;
+    text-decoration: none;
+}
+li{
+    
+    list-style: none;
+    
+}
+ul{
+   
+    list-style: none;
+}
+aside nav{
+    height: 50%;
+}
+
+
+
+
+
+
+
+
+
+/*
+{
+
+}
+*/
+
+
+
+
+
+
+
+main{
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    display: table;
+    height: 100%;
+    width: 72%;
+    padding: 0;
+    margin: 0;
+    float: right;
+    
+}
+main nav{
+    height: 50px;
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    box-sizing: border-box;
+    display: table;
+}
+.topbar{
+    
+    box-sizing: border-box;
+    width: 100%;
+}
+.topbar ul{
+    padding: 3px;
+    box-sizing: border-box;
+}
+.container{
+    
+    width: 100%;
+}
+.table{
+    box-sizing: border-box;
+    display: table;
+}
+.margin{
+    margin-left: 256px;
+}
+.profile{
+    height: 300px;
+    width: 100%;
+    background-color: cyan;
+}
+
+/*
+{
+
+}
+*/
+
+.sil{
+    
+    color: white;
+    background-color: #71c8db;
+    font-size: 1.5rem;
+    padding-top: 300px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    letter-spacing: 6px;
+}
+.icon{
+    font-family: Gill Sans MT;
+    letter-spacing: 6px;
+    font-size: 1.5rem;
+}
+.durbs{
+    
+    
+    font-size: 1.5rem;
+}
+
+li img{
+    
+    
+    height: 20px;
+}
+
+
+
+
+
+.rfloat{
+    
+    
+    float: right;
+}
+
+
+
+
+
+
+/*   COLORS   */
+.orange{
+    color: #ffcc00;
+}
+
+.aqua{
+    color: #71c8db;
+}
+.grey{
+    color: #333333;
+}
+.white{
+    color: white;
+}
+/* BACKGROUND COLORS */
+.bgwhite{
+    background-color: white;
+}
+
+.bgorange{
+    background-color: #ffcc00;
+}
+.bgaqua{
+    background-color: #71c8db;
+}
+.bggrey{
+    background-color: #333333;
+}
+.gillsantmt{
+    font-family: Gill Sans MT;
+}
+.eraslight{
+    font-family: Eras Light;
+}
+
+
+/* HOVER */
+
+.horange:hover{
+    color: #ffcc00;
+}
+
+.haqua:hover{
+    color: #71c8db;
+}
+.hgrey:hover{
+    color: #333333;
+}
+.hwhite:hover{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
